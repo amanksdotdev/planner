@@ -31,6 +31,7 @@
 .disabled {
     display: none;
 }
+
 .box {
     height: 20px;
     width: 40px;
@@ -178,6 +179,14 @@ textarea {
     box-shadow: none;
 
     resize: none; /*remove the resize handle on the bottom right*/
+}
+
+.lock-btn {
+    position: absolute;
+    right: 10px;
+}
+.lock-btn:hover {
+    cursor: pointer;
 }
 
 .color-box-container {
